@@ -8,6 +8,7 @@ namespace SolarDVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://api.dvpn.solar/api";
+        
         public SolarDVpn()
         {
             httpClient = new HttpClient();
